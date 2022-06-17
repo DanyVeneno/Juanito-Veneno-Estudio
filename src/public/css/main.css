@@ -1,0 +1,21 @@
+body{
+    background-image: url("/img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-color: #262626;
+    color: aliceblue;*/
+}
+nav{
+    position: fixed;
+    opacity: 0.8;
+
+}
+header{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #efefef;
+}
+section{
+    color: #efefef;
+}
