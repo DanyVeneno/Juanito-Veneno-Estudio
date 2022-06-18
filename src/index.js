@@ -22,4 +22,4 @@ app.use(express.static(join(__dirname,'public')))
 
 //process.env.PORT ||   .... //es una variable de entorno que se define en el archivo package.json
 app.listen(process.env.PORT || 3000)
-console.log('El servidor esta corriendo en el puerto', process.env.PORT || 3000')
+console.log('El servidor esta corriendo en el puerto', process.env.PORT || 3000)
