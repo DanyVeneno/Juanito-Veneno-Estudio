@@ -19,5 +19,7 @@ app.use(firstRoutes)
 app.use(express.static(join(__dirname,'public')))
 
 //en lugar de get se utiliza render para renderizar una vista
-app.listen(3000)
-console.log('El servidor esta corriendo en el puerto 3000')
+
+//process.env.PORT ||   .... //es una variable de entorno que se define en el archivo package.json
+app.listen(process.env.PORT || 3000)
+console.log('El servidor esta corriendo en el puerto', process.env.PORT || 3000')

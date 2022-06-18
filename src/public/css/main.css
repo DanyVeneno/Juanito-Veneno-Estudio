@@ -5,6 +5,7 @@ body{
     background-position: center;
     /*background-color: #262626;
     color: aliceblue;*/
+   
 }
 nav{
     position: fixed;
@@ -19,3 +20,31 @@ header{
 section{
     color: #efefef;
 }
+footer{
+    position:relative;
+    height:100px;
+    padding-top: 40px;
+    display:flex ;
+    justify-content: space-around;
+    opacity: .6;
+
+}
+
+a{
+    text-decoration: none;
+    color: #efefef;   
+
+}
+#js-particles{
+    z-index: -1;
+    position: absolute;
+    width: 18%;
+    height: 80vh;
+}
+#about{
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
