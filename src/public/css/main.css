@@ -45,6 +45,18 @@ a{
     font-size: larger;
     padding: 10px 10px 10px 10px;
 }
+.service{
+    position: relative;
+}
+#service{
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+    color: #efefef;
+
+}
+.modal-title{
+    color: #161616;
+}
 
 
 
