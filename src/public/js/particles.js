@@ -6,7 +6,7 @@ particlesJS(
     'js-particles', {
       'particles': {
         'number': {
-          'value': 1500
+          'value': 50
         },
         'color': {
           'value': ['#a9a9a9', '#efefef', '#caff9f','#262626']
